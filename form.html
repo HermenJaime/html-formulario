@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- <h1>Formulário HTML</h1> -->
+    <form action="#" method="post">
+        <fieldset>
+        <legend>Formulário</legend>
+        <!--INPUTS-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="inome" placeholder="Digite seu nome"><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="isenha" placeholder="Digite sua senha"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="password" id="iemail" placeholder="Digite seu email"><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="isenha" placeholder="Digite sua senha"><br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="iidade" placeholder="Digite sua idade"><br><br>
+
+        <label for="senha">Telefone:</label>
+        <input type="tel" id="itelefone" placeholder="Digite seu telefone"><br><br>
+
+        <label for="d_nascimento">Data de Nascimento:</label>
+        <input type="date" id="id_nascimento" placeholder="Digite sua data de nascimento"><br><br>
+
+        <label for="website">Website:</label>
+        <input type="website" id="iwebsite" placeholder="Digite seu website"><br><br>
+
+        <label for="busca">Busca:</label>
+        <input type="search" id="ibusca" placeholder="Pesquise aqui"><br><br>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="imensagem" name="mensagem" rows="4" cols="50" placeholder="Escreva sua opinião"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir"><br>
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--CHECKBOX-->
+        <label>
+        <input type="checkbox" name="aceitar" id="iaceitar" value="sim">Aceito os termos e condições.    
+        </label>
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--RADIO-->
+        <p>Sexo:</p>
+        <label>
+            <input type="radio" name="sexo" value="masculino">Masculino
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="feminino">Feminino
+        </label>
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--SELECTION-->
+        <label for="pais">País</label>
+        <select name="pais" id="ipais">
+            <option value="brasil">Brasil</option>
+            <option value="portugal">Portugal</option>
+            <option value="espanha">Espanha</option>
+            <option value="inglaterra">Inglaterra</option>
+        </select>
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--ENTRADA DE ARQUIVOS-->
+        <label for="arquivo">Upload de Arquivos</label>
+        <input type="file" name="arquivo" id="iarquivo">
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--ENTRADA DE BARRA DE INTERVALOS-->
+        <label for="volume">Volume</label><br>
+        <input type="range" name="volume" id="ivolume" min="0" max="100">
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--ENTRADA DE COR-->
+        <label for="">Escolha uma cor</label>
+        <input type="color" name="cor" id="icor">
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--ENTRADA DE HORÁRIO-->
+        <label for="hora">Escolha um horário</label>
+        <input type="time" name="hora" id="ihora">
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--ENTRADA DE MÊS-->
+        <label for="mes">Ecolha um mês</label>
+        <input type="month" name="mes" id="imes">
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--ENTRADA DE DIA DA SEMANA-->
+        <label for="semana">Dia da Semana</label>
+        <input type="week" name="semana" id="isemana">
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+    </fieldset>
+    </form>
+</body>
+</html>
